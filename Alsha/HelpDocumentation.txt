@@ -1,0 +1,25 @@
+
+
+# HELP DOCUMENTATION
+
+# How to use the code in detail is described here
+
+
+python alsha.py -h  => Shows the help documentation
+
+python alsha.py -u http://www.example.com/   => It basically gives information about the site 
+
+python alsha.py -uT http://www.example.com/  => It basically shows the technologies the target site is using
+
+python alsha.py -dbs <target IP>   => It tells the running service by scanning the ports of the most used databases on the target website.
+
+python alsha.py -fw <target IP>  => It may not provide definitive results that are useful for performing basic firewall detection.
+
+python alsha.py -R http://www.example.com  => It checks whether the robots.txt file that the developers have placed on the target website most of the time, and returns the values ​​if any.
+
+python alsha.py -Pn www.example.com   => It tries to learn and return the IP address by pinging the target site.
+
+python alsha.py -sS <target IP>  => Scans the 35 most used ports on the target site and tries to get Version information
+
+python alsha.py -D <http://example.com>  => It scans and detects existing directories and hidden directories on the target website.
+
