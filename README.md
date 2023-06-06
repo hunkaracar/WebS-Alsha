@@ -28,6 +28,8 @@ python alsha.py -D <http://example.com>  => It scans and detects existing direct
   for Linux => ls
  
  pip3 install requirements.txt
+  
+ ================================ 
  
   Then;
   
@@ -41,4 +43,5 @@ python alsha.py -D <http://example.com>  => It scans and detects existing direct
   For windows => python alsha.py -h
   
   For linux => python3 alsha.py -h
+  
   
