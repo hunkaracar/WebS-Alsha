@@ -24,7 +24,7 @@ python alsha.py -D <http://example.com>  => It scans and detects existing direct
  
   cd Alsha
   
-  for Windows => dirr
+  for Windows => dir
   for Linux => ls
  
  pip3 install requirements.txt
