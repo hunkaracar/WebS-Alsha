@@ -63,7 +63,7 @@ def detect_portScan(target_ip):
                 print(Fore.GREEN+f"\n[+]Discovery open {port}/{ports[port]} on {target_ip}" + Fore.RESET)
 
                 # Get SYN/ACK response
-                synack_packet = IP(dst=target_ip) / TCP(dport=port, sport=syn_response[TCP].dport, seq=syn_response[TCP].ack, ack=syn_response[TCP].seq + 1, flags="A")
+                synack_packet = IP(dst=target_ip) / TCP(dport=port, sport=syn_response[TCP].dport, seq=syn_response[TCP].ack, ack=syn_response[TCP].seq + 1, flags="S")
                 synack_response = sr1(synack_packet, timeout=15, verbose=0)
 
                 #Get Banner info
