@@ -29,7 +29,7 @@ python alsha.py -subd example.com --protocol http or https  => Performs a subdom
   for Windows => dir
   for Linux => ls
  
- pip3 install requirements.txt
+ pip3 install -r requirements.txt
   
  ================================ 
  
