@@ -18,6 +18,8 @@ python alsha.py -Pn www.example.com   => It tries to learn and return the IP add
 python alsha.py -sS <target IP>  => Scans the 35 most used ports on the target site and tries to get Version information
 
 python alsha.py -D <http://example.com>  => It scans and detects existing directories and hidden directories on the target website.
+
+python alsha.py -subd <example.com> --protocol <http or https>  => Performs a subdominance scan on the target system
   
   
 #We load our computer with the following command
