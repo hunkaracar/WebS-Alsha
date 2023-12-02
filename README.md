@@ -1,5 +1,7 @@
 # WebS-Alsha Software Version-2
 
+## Software Features
+
 ##
 WebS-Alsha software is a script written in Python language that has the capabilities of web-based scanning, discovery, technology detection, port scanning, database detection, directory scanning, subdomin detection scanning, firewall detection and IP detection.
 ##
