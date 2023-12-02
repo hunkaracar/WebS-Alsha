@@ -1,5 +1,8 @@
-# WebS-Alsha
+# WebS-Alsha Software Version-2
 
+##
+WebS-Alsha software is a script written in Python language that has the capabilities of web-based scanning, discovery, technology detection, port scanning, database detection, directory scanning, subdomin detection scanning, firewall detection and IP detection.
+##
 
 ### Shows the help documentation
 
@@ -51,18 +54,18 @@ It checks whether the robots.txt file that the developers have placed on the tar
  
  ### pip3 install -r requirements.txt
   
- ## ================================ 
+ ### ================================ 
  
-  ## Then;
+  ### Then;
   
-  ## cd alsha
+  ### cd alsha
   
-  ## for Windows => dirr
-  ## for Linux => ls
+  ### for Windows => dirr
+  ### for Linux => ls
   
-  ## Let's run the code
+  ### Let's run the code
   
-  ## For windows => python alsha.py -h
+  ### For windows => python alsha.py -h
   
-  ##For linux => python3 alsha.py -h
+  ### For linux => python3 alsha.py -h
   
