@@ -1,49 +1,68 @@
 # WebS-Alsha
 
 
-python alsha.py -h  => Shows the help documentation
+### Shows the help documentation
 
-python alsha.py -u http://www.example.com/   => It basically gives information about the site 
+`python alsha.py -h` 
 
-python alsha.py -uT http://www.example.com/  => It basically shows the technologies the target site is using
+### It basically gives information about the site 
 
-python alsha.py -dbs <target IP>   => It tells the running service by scanning the ports of the most used databases on the target website.
+`python alsha.py -u http://www.example.com/`  
 
-python alsha.py -fw <target IP>  => It may not provide definitive results that are useful for performing basic firewall detection.
+### It basically shows the technologies the target site is using
 
-python alsha.py -R http://www.example.com  => It checks whether the robots.txt file that the developers have placed on the target website most of the time, and returns the values ​​if any.
+`python alsha.py -uT http://www.example.com/` 
 
-python alsha.py -Pn www.example.com   => It tries to learn and return the IP address by pinging the target site.
+### It tells the running service by scanning the ports of the most used databases on the target website.
 
-python alsha.py -sS <target IP>  => Scans the 35 most used ports on the target site and tries to get Version information
+`python alsha.py -dbs <target IP> `  
 
-python alsha.py -D <http://example.com>  => It scans and detects existing directories and hidden directories on the target website.
+###  It may not provide definitive results that are useful for performing basic firewall detection.
 
-python alsha.py -subd example.com --protocol http or https  => Performs a subdominance scan on the target system
+`python alsha.py -fw <target IP>` 
+
+It checks whether the robots.txt file that the developers have placed on the target website most of the time, and returns the values ​​if any.
+
+`python alsha.py -R http://www.example.com`  
+
+### It tries to learn and return the IP address by pinging the target site.
+
+`python alsha.py -Pn www.example.com`   
+
+### Scans the 35 most used ports on the target site and tries to get Version information
+
+`python alsha.py -sS <target IP>` 
+
+### It scans and detects existing directories and hidden directories on the target website.
+
+`python alsha.py -D <http://example.com>`
+
+### Performs a subdominance scan on the target system
+
+`python alsha.py -subd example.com --protocol http or https`
   
   
-#We load our computer with the following command
+## We load our computer with the following command
  
-  cd Alsha
+  ### cd Alsha
   
-  for Windows => dir
-  for Linux => ls
+  ### for Windows => dir
+  ### for Linux => ls
  
- pip3 install -r requirements.txt
+ ### pip3 install -r requirements.txt
   
- ================================ 
+ ## ================================ 
  
-  Then;
+  ## Then;
   
-  cd alsha
+  ## cd alsha
   
-  for Windows => dirr
-  for Linux => ls
+  ## for Windows => dirr
+  ## for Linux => ls
   
-  Let's run the code
+  ## Let's run the code
   
-  For windows => python alsha.py -h
+  ## For windows => python alsha.py -h
   
-  For linux => python3 alsha.py -h
-  
+  ##For linux => python3 alsha.py -h
   
