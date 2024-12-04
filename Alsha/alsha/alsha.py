@@ -124,7 +124,7 @@ Program Purpose: Web scraping and Enumeration
         print("Scanning Technologies Used...")
         print(f"Target Web site {url}")
         print("-------------------------------------------------------------------------------")
-        time.sleep(2)
+        time.sleep(1)
 
         try:
 
@@ -191,7 +191,7 @@ Program Purpose: Web scraping and Enumeration
 
         print("\nBeing detected...")
         print("----------------------------------------------------------\n")
-        time.sleep(2)
+        time.sleep(1)
         ans,uns = sr(IP(dst=ip)/ICMP(), timeout=25,verbose=0)
 
         if ans:
