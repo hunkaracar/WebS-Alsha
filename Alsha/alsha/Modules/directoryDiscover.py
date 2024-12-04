@@ -151,7 +151,7 @@ def discover_directory(base_url):
     print("Discovery Url.....")
     print(f"Target Site -> {base_url}")
     print("-----------------------------------------------------------------------\n")
-    time.sleep(5)
+    time.sleep(3)
 
     try:
         for directory in directories:
@@ -180,7 +180,6 @@ def discover_directory(base_url):
 
             else:
                 return False
-
 
     except KeyboardInterrupt:
         print(Fore.RED + "\nProgram Terminated:::" + Fore.RESET)
