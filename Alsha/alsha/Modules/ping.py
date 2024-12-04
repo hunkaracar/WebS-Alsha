@@ -9,7 +9,6 @@ def pinging(url):
     time.sleep(3)
 
     try:
-
         ip = socket.gethostbyname(url)
         print(f" Target IP Address => {ip}")
 
